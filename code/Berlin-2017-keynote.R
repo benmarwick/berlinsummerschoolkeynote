@@ -81,6 +81,12 @@ items_wth_refs <-
   filter(!is.na(refs)) %>% 
   filter(!is.na(year)) 
 
+# ------------------------------------------------------------------
+# how many items do we have?
+nrow(items_wth_refs)
+
+# span what time period?
+range(items_wth_refs$year)
 
 #  ------------------------------------------------------------------
 
